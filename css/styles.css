@@ -42,35 +42,10 @@ body{
     font-family: 'Fontdiner Swanky', cursive;
     color: orangered;
     font-size: 70px;
+    text-align: center;
+    margin-top: 50px;
   }
-/* 
-  #kd{
-    height: 250px;
-  } */
 
-  
-  header, #footer{
-    /* background-image: url("https://www.moon-dream.co.uk/images/MoonDreamideaforwebsitelogo4.jpg"); */
-    background-repeat: no-repeat;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    opacity: 0.9;
-    color:  #ffcc00;
-  }
-  
-  p{
-    text-align: center;
-  }
-  
-  h1, h2{
-    text-align: center;
-    font-size: 50px;
-    font-weight: bold;
-    color:   #ffcc00;
-    font-family: 'Bungee Shade', cursive;
-  
-  
-  }
   
   .row{
     margin-left: 5px;
@@ -80,21 +55,16 @@ body{
   }
   
   img{
-    height: 260px;
-    width: 260px;
+    height: 250px;
+    width: 250px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /* border-radius: 50%; */
     margin-bottom: 18px;
-    /* -webkit-transition: -webkit-transform 1.0s ease-in-out;
-    transition: transform 1.0s ease-in-out; */
+
   }
   
-  img:hover{
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
+
   
   #name1, #position1, #alias1, #bio1 {
     text-align: center;
