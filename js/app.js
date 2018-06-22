@@ -1,11 +1,42 @@
 // 1. Add an event to the 'See Details' content that will create an alert box that says 'Not Available in Hawaii.' after clicking on See Details.
+details.addEventListener('click', notAvailable);
 
+function notAvailable() {
+    alert('Not Available In Hawaii');
+};
 
 //2. Add an event to the div element with the id of 'name1' that will show/hide the description ('descrip1') after hovering over Air Jordan II.
+name1.addEventListener('mouseover', mouseOverHideShow);
 
+function mouseOverHideShow() {
+    var description = document.getElementById('descrip1');
+    if(description.style.display === 'block') {
+        description.style.display = 'none';
+    } else {
+        description.style.display = 'block';
+    }
+};
 
 //3. Add an event to the div element with the id of 'name2' that will show/hide the following description after clicking on the element.
 //'The instantly recognizable Jumpman silhouette made its debut with the Air Jordan 3 during Michael Jordan's 1987-88 NBA season.'
+
+var descripElem = document.createElement('div');
+descripElem.id = 'descript2';
+descripElem.innerHTML = "The instantly recongnizable Jumpman silhouette made its debut with the Air JOrdan 3 during Michael Jordan's 1987-88 NBA season.";
+descripElem.style.display = 'none';
+name2.appendChild(descripElem);
+
+name2.addEventListener('click', clickHideShow);
+
+function clickHideShow() {
+    var description2 = document.getElementById('descript2');
+    if (description2.style.display === 'block') {
+        description2.style.display = 'none';
+    } else {
+        description2.style.display = 'block';
+    }
+}
+
 
 
 //You'll need to:
